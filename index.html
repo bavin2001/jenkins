@@ -3,97 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe - Personal Website</title>
+    <title>Synnefo Solutions - Networking Courses</title>
     <style>
+        /* Global styles */
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            text-align: center;
-            margin-top: 20px;
-        }
-        nav a {
-            text-decoration: none;
-            color: #333;
-            padding: 10px 20px;
-            margin: 0 5px;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        nav a:hover {
-            background-color: #f0f0f0;
-        }
-        .content {
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
             background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        footer {
-            text-align: center;
-            margin-top: 20px;
+        h1, h2, h3 {
+            color: #007bff;
+        }
+        p {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .course {
             padding: 10px;
-            background-color: #333;
+            background-color: #ffffff;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .course h2 {
+            color: #007bff;
+        }
+        .course p {
+            color: #555;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
             color: #fff;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>John Doe</h1>
-        <p>Personal Website</p>
-    </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="content">
-        <section id="home">
-            <h2>Welcome to My Personal Website</h2>
-            <p>Hello! I'm John Doe, a web developer based in Anytown, USA. This is my personal website where I showcase my work and share my thoughts.</p>
+    <div class="container">
+        <header>
+            <h1>Synnefo Solutions</h1>
+            <p>Your Gateway to Networking Excellence</p>
+        </header>
+
+        <section class="section">
+            <h2>About Us</h2>
+            <p>Synnefo Solutions specializes in providing high-quality networking courses designed to equip professionals with the skills needed in today's technology landscape. We focus on practical, hands-on training to ensure our students are ready to tackle real-world challenges.</p>
         </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I have a passion for creating websites and web applications that are not only visually appealing but also highly functional. With several years of experience in web development, I specialize in front-end technologies such as HTML, CSS, and JavaScript.</p>
+
+        <section class="section">
+            <h2>Our Courses</h2>
+            <div class="course">
+                <h3>CCNA</h3>
+                <p>Learn Cisco Certified Network Associate fundamentals and configurations.</p>
+            </div>
+            <div class="course">
+                <h3>RHCE</h3>
+                <p>Master Red Hat Certified Engineer skills in Linux server administration.</p>
+            </div>
+            <div class="course">
+                <h3>AWS</h3>
+                <p>Explore Amazon Web Services for cloud computing and solutions architecture.</p>
+            </div>
+            <div class="course">
+                <h3>DevOps</h3>
+                <p>Learn DevOps principles for efficient software development and deployment.</p>
+            </div>
+            <div class="course">
+                <h3>Network Automation</h3>
+                <p>Automate network tasks using modern tools and frameworks.</p>
+            </div>
+            <div class="course">
+                <h3>Blockchain for Networking Professionals</h3>
+                <p>Explore blockchain technology and its applications in networking and cybersecurity.</p>
+            </div>
+            <div class="course">
+                <h3>Wireless LAN Security</h3>
+                <p>Implement and manage wireless LAN security policies.</p>
+            </div>
         </section>
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <p>Here are some projects I've worked on:</p>
+
+        <section class="section">
+            <h2>Why Choose Synnefo Solutions?</h2>
             <ul>
-                <li><a href="#">Project 1</a></li>
-                <li><a href="#">Project 2</a></li>
-                <li><a href="#">Project 3</a></li>
+                <li>Experienced instructors with industry expertise.</li>
+                <li>Hands-on labs and real-world simulations.</li>
+                <li>Flexible learning options: online and on-site.</li>
+                <li>Job placement assistance and career support.</li>
+                <li>Continued learning with advanced courses and certifications.</li>
             </ul>
         </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Feel free to get in touch with me:</p>
-            <ul>
-                <li>Email: john.doe@example.com</li>
-                <li>Phone: +1 (123) 456-7890</li>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-            </ul>
+
+        <section class="section">
+            <h2>Contact Us</h2>
+            <p>Ready to take your networking skills to the next level? Contact us today!</p>
+            <a href="mailto:info@synnefosolutions.com" class="cta-button">Email Us</a>
         </section>
+
+        <footer>
+            <p>&copy; 2024 Synnefo Solutions. All rights reserved.</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; 2024 John Doe. All rights reserved.</p>
-    </footer>
 </body>
 </html>
